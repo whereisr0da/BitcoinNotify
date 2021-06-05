@@ -8,13 +8,13 @@ A simple windows desktop notification app to keep you aware of Bitcoin evolution
 # Features
 
 - Create a desktop notification each 15 minutes (default settings)
-- Show the current price of the bitcoin
-- Show the difference with the last check bitcoin price (value, percent)
+- Show the current price of the Bitcoin
+- Show the difference with the last checked Bitcoin price (value, percent)
 - Show investment rentability regarding the current Bitcoin price (value, percent)
 
 # Investment
 
-You can add an investment record to be informed about the rentability of your investment. By specifing your investments as follow in the `investments.log` file (Right click on tryicon > Investment History)
+You can add an investment record to be informed about the rentability of your investment, by specifing your investments as follow in the `investments.log` file (Right click on tryicon > Investment History)
 
 ```
 amount of money you invested | bitcoin price at the time | equivalent in bitcoin of your investment
