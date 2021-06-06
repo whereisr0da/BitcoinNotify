@@ -16,6 +16,8 @@ A simple windows desktop notification app to keep you aware of Bitcoin evolution
 
 You can add an investment record to be informed about the rentability of your investment, by specifing your investments as follow in the `investments.log` file (Right click on tryicon > Investment History)
 
+Here is the rows definition of one record :
+
 ```
 amount of money you invested | bitcoin price at the time | equivalent in bitcoin of your investment
 ```
@@ -27,6 +29,8 @@ Here an example :
 500   | 46776,82 | 0,00004297
 ```
 
+And each time the notification pops-up, the difference between the current Bitcoin value, and the one at the time of your investment (the rentability) is cumulated and shown in the notification (example: 525,05€ > 1089.49€)
+
 # Settings 
 
 All settings are in the `config.ini` file, you can acces it using the tryicon in your taskbar (Right click on tryicon > Settings)
@@ -34,6 +38,24 @@ All settings are in the `config.ini` file, you can acces it using the tryicon in
 - `currency` : the currency that you want (default is `EUR`)
 - `refreshInterval` : the refresh time in miliseconds
 - `visibleInterval` : the notification visible time in miliseconds 
+
+# Todo list
+
+- Startup launching
+- Installer
+- Settings in %AppData%
+- Screen selection
+- Screen location selection
+- Closing button
+- Color selection
+- Investment loading from CSV files
+- Better UI
+- Port it to .NetCore to support other OS
+
+# Change log
+
+- 1.0.0.0
+  - First release
 
 # License
 
